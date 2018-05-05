@@ -1,0 +1,5 @@
+minimum_code_number: 1
+maximum_code_number: 9
+incorrect_passcode_wait_time_seconds: 60
+door_open_duration_seconds: 5
+allowed_wrong_tries: 3

@@ -1,0 +1,22 @@
+main: me.fluglow.DoorPasscodes
+name: DoorPasscodes
+version: 1.1
+author: Fluglow
+description: Add passcodes to doors
+commands:
+  addpasscode:
+      description: Add a passcode to the door you're looking at.
+      usage: /addpasscode
+      permission: doorpasscodes.manage
+  removepasscode:
+      description: Remove a passcode from the door you're looking at.
+      usage: /removepasscode
+      permission: doorpasscodes.manage
+
+permissions:
+  doorpasscodes.manage:
+    description: Add and remove door passcodes.
+    default: op
+  doorpasscodes.open:
+    descrpition: Attempt to open doors with passcodes.
+    default: true
